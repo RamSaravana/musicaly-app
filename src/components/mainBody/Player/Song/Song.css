@@ -1,0 +1,27 @@
+.song {
+  width: 95%;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.songWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.songName {
+  text-transform: uppercase;
+}
+.songDuration {
+  font-size: smaller;
+}
+
+.song:hover {
+  border: 3px solid rgba(248, 93, 93);
+  background-color: rgba(248, 93, 93, 0.6);
+  color: white;
+}

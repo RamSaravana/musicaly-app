@@ -1,14 +1,14 @@
 import "./App.css";
-import Navbar from "./components/Navbar.jsx";
-import Player from "./components/Player";
+import Navbar from "./components/TopBar/Navbar";
+import MainBodyContainer from "./components/mainBody/MainBodyContainer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <section>
-        <Player />
-      </section>
+      <MainBodyContainer />
+      <Footer />
     </div>
   );
 }

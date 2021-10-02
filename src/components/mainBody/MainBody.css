@@ -1,0 +1,9 @@
+.mainBody {
+  margin: 20px 0px;
+  width: 100%;
+}
+.mainBodyWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

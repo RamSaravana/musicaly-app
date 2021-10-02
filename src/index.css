@@ -3,6 +3,7 @@ body {
   font-family: "Merriweather", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(248, 93, 93, 0.1);
 }
 
 code {

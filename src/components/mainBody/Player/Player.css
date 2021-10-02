@@ -1,0 +1,101 @@
+.player {
+  min-width: 30%;
+  max-height: 700px;
+  margin: 40px 25px;
+}
+
+.playerWrapper {
+  background-color: rgba(248, 93, 93, 0.3);
+  height: 100%;
+  border-radius: 15px;
+  border: rgba(248, 93, 93, 0.1) 2px solid;
+  padding: 10px;
+}
+
+.playerTitle {
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.playerDescription {
+  text-align: center;
+  padding: 10px 5px;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.horizontalLine {
+  background: rgba(248, 93, 93, 0.5);
+  height: 3px;
+  border: none;
+}
+.playerSongsList {
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding-inline-start: 15px;
+  min-height: 240px;
+}
+
+.playerImage {
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgba(248, 93, 93, 0.6);
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerAlbumDetails {
+  display: flex;
+  padding-left: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+.playerControls {
+  width: 99%;
+  height: 80px;
+  border: 3px solid rgba(248, 93, 93, 0.5);
+  border-radius: 20px;
+  background-color: #f1f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.playerControls:hover {
+  border: 3px solid rgba(248, 93, 93);
+  cursor: pointer;
+}
+
+.play-btn {
+  border: 5px solid rgba(248, 93, 93);
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  margin: 12px;
+}
+
+.like-btn {
+  border: 4px solid rgba(248, 93, 93);
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  align-items: center;
+  margin: 12px;
+}
+
+audio {
+  width: 100%;
+}
+
+h4 {
+  font-size: x-large;
+}

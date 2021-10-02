@@ -1,0 +1,22 @@
+.album {
+  min-width: 50%;
+  max-height: 700px;
+  margin: 40px 25px;
+}
+
+.albumWrapper {
+  background-color: rgba(248, 93, 93, 0.3);
+  height: 100%;
+  border-radius: 15px;
+  border: rgba(248, 93, 93, 0.1) 2px solid;
+  padding: 10px;
+}
+
+.albumTitle {
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.albumsList {
+  list-style: none;
+}

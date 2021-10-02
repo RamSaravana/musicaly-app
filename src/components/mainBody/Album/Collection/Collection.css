@@ -1,0 +1,39 @@
+.collection {
+  width: 95%;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.collectionWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.collectionImage {
+  border: 2px solid rgba(248, 93, 93);
+  border-radius: 20px;
+  background: none;
+  width: 90px;
+  height: 90px;
+  justify-content: center;
+  margin: 2px;
+}
+
+.collectionImage:hover {
+  border: 2px solid white;
+}
+
+.collectionName {
+  text-transform: uppercase;
+}
+.collectionCount {
+  font-size: smaller;
+}
+.collection:hover {
+  border: 3px solid rgba(248, 93, 93);
+  background-color: rgba(248, 93, 93, 0.6);
+  color: white;
+}
